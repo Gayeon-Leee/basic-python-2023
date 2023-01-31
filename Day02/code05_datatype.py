@@ -8,13 +8,13 @@ print('' == None)  # None 도 하나의 값으로 보기 때문에 0, '' 과 같
 
 # 숫자형
 val = 3
-print(type(val)) 
+print(type(val))    # int 정수
 
 val = 3.14
-print(type(val)) 
+print(type(val))    # float 실수
 
 val = 'Hello'
-print(type(val))  #같은 val 이라도 어떤 값을 넣는지에 따라 바로 class 값 바뀜
+print(type(val))  #str 문자
 
 val = 0b1010
 print(type(val))  #2진수도 int 로 나옴
@@ -33,7 +33,7 @@ val = 'Life is short, You need Python.'
 print(val)
 print(type(val))
 
-val = 'Hello\nWorld!'   #탈출문자 \n 한줄 내리기
+val = 'Hello\nWorld!'   #탈출(escape)문자 \n 한줄 내리기
 print(val)
 val = 'Hello\tWorld'    #\t 스페이스4번
 print(val)
@@ -46,9 +46,11 @@ print(val)
 val = "Hi, I'm 'Gayeon'"   
 print(val)
 val = 'Hi, I\'m \'Gayeon\''     
-print(val)  # 쌍따옴표 홑따옴표 구분없이 동일하지만 홑따옴표를 문장 안에 부호로 사용할 경우에는 쌍따옴표 사용이 편함
+print(val)  
+# 쌍따옴표 홑따옴표 구분없이 동일하지만 홑따옴표를 문장 안에 부호로 사용할 경우에는 쌍따옴표 사용이 편함
+# 홑따옴표로만 사용할 경우, 문장 안의 부호로 쓸 때는 \' 으로 홑따옴표 앞에 back slash 써야함
 
-# 불린형(Boolean) 또는 불형
+# 불린형(Boolean) 또는 불형 => 참/거짓 논리
 참 = True
 거짓 = False
 print(type(거짓))   #class 'bool' 
@@ -62,3 +64,4 @@ print(거짓 is False)
 print(bool(1)) # 1 == True
 print(bool(0)) # 0 == False
 print(bool(2)) # 1 이상의 값은 True 로 용인해주지만 다른 언어에서는 0,1 만 취급하니 0,1 만 사용
+# type이 자료형을 반환하는 내장함수라면 bool은 변수의 참/거짓을 확인하는 내장함수인 것 
