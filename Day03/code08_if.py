@@ -16,3 +16,17 @@ elif name == 'Hermione' :   # else 외의 또 다른 조건
     print('팔 걷으세요~')
 else:
     print('조용히 기다립니다.')     # name == Ron 의 경우, name이 Ron인 것이 False면 else 출력
+
+
+# 복습 / x의 값이 10이 아닐 때 'ok'가 출력되게 만드세요.
+
+x = 6
+
+if x <= 4 :
+    print('ok')
+
+elif x == 5:
+    print('no')
+
+else :
+    print('none')        

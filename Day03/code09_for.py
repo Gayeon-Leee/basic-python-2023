@@ -23,4 +23,22 @@ for item in vals:
     else:
         print(num, '번 수는', item, '입니다') 
 
-   
+
+
+# 복습
+# for 변수 in range(횟수):
+#   반복할 코드
+ 
+for i in range(10):
+    print('Hello world')   
+
+
+# for 변수 in list
+#   수행할 문장    
+
+#연습문제
+
+x = [49, -17, 25, 102, 8, 62, 21]
+
+for n in x :
+    print(n * 10, end=' ')
