@@ -53,4 +53,4 @@ print(f'파이는 {pi:10.3f}입니다.')
 1. 파이썬 기본
     - 가상환경
     - 객체지향 OOP(Object Oriented Programming)
-    - 패키지
+    - 패키지, 모듈
