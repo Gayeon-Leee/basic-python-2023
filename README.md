@@ -47,4 +47,10 @@ print(f'파이는 {pi:10.3f}입니다.')
         - for
         - while
     - 구구단 프로그램
-    - 함수            
+    - 함수          
+    
+#  4일차
+1. 파이썬 기본
+    - 가상환경
+    - 객체지향 OOP(Object Oriented Programming)
+    - 패키지
