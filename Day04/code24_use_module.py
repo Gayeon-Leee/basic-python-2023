@@ -7,8 +7,8 @@ print(m.pi)
 
 print(m.tan(0))
 print(m.ceil(3.8)) # ceil == 올림
-print(2 ** 10)  # 정수
-print(m.pow(2, 10))  # 실수 => 가급적이면 math 모듈에 있는게 정확해서 좋음
+print(2 ** 10)  # 1024 정수
+print(m.pow(2, 10))  # 1024.0 실수 => 가급적이면 이렇게 math 모듈 사용하는게 정확해서 좋음
 
 
 # 우리가 만든 모듈을 사용

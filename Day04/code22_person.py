@@ -37,8 +37,8 @@ class Person: # 여기서 person은 class를 만든 것
 # 흰색 실선으로 함수나 제어문의 해당구간을 볼 수 있음
 
 # 2. 생성자 외 매직매서드(펑션) __str__
-def __str__(self)-> str:
-     return f'출력! 이름은 {self.name}, 성별은 {self.gender}'
+    def __str__(self)-> str:
+        return f'출력! 이름은 {self.name}, 성별은 {self.gender}'
 
 harry = Person('potter', 170, 'male') # person() class를 만들어서 객체(실체)를 만들라는 뜻  
                  # 위의 person 이라는 class를 가지고 harry 라는 객체를 만든 것 => 이렇게 만들어진 객체를 instance 라고 함
