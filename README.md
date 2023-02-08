@@ -91,7 +91,8 @@ print(f'파이는 {pi:10.3f}입니다.')
         - 데이터포털 OpenAPI 크롤링
         - BeautifulSoup 크롤링
 
-![실행화면]        
+![실행화면](https://raw.githubusercontent.com/Gayeon-Leee/studyPython2023/main/images/jupyter_folium.png)
+실행화면
 
 # 9일차 
 1. 파이썬 응용
