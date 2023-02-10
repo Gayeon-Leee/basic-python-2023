@@ -49,19 +49,19 @@ print(f'파이는 {pi:10.3f}입니다.')
     - 구구단 프로그램
     - 함수          
     
-#  4일차
+##  4일차
 1. 파이썬 기본
     - 가상환경
     - 객체지향 OOP(Object Oriented Programming)
     - 패키지, 모듈
 
-# 5일차
+## 5일차
 1. 파이썬 기본
     - 패키지 계속
     - 입출력 다시
     - 예외처리
 
-# 6일차
+## 6일차
 1. 파이썬 기본
     - 콘솔 출력 보충
     - 객체 지향 다시
@@ -74,7 +74,7 @@ print(f'파이는 {pi:10.3f}입니다.')
 ![실행화면](https://raw.githubusercontent.com/Gayeon-Leee/studyPython2023/main/images/address_app.png)
 실행화면    
 
-# 7일차
+## 7일차
 1. 파이썬 응용
     - 주피터 노트북 사용법
         - 생성 : 파일메뉴 > 새파일 > jupyter notebook 선택 > untitled~ 파일 뜨면 원하는 폴더에 저장하고 시작
@@ -82,7 +82,7 @@ print(f'파이는 {pi:10.3f}입니다.')
     - 라이브러리 사용법
         - folium (지도 라이브러리)
 
-# 8일차
+## 8일차
 1. 파이썬 응용
     - 라이브러리 사용법
         - urllib.request
@@ -94,7 +94,7 @@ print(f'파이는 {pi:10.3f}입니다.')
 ![실행화면](https://raw.githubusercontent.com/Gayeon-Leee/studyPython2023/main/images/jupyter_folium.png)
 실행화면
 
-# 9일차 
+## 9일차 
 1. 파이썬 응용
     - GUI 개발
         - Tkinter 소개
@@ -103,7 +103,7 @@ print(f'파이는 {pi:10.3f}입니다.')
         - 위젯
 
 
-# 10일차 
+## 10일차 
 1. 파이썬 응용
     - GUI 개발
         - PyQt 위젯 계속
